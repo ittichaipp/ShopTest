@@ -1,0 +1,131 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+.image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: 250px;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.containerr:hover .image {
+    opacity: 0.5;
+}
+
+.containerr:hover .middle {
+    opacity: 1;
+}
+.textt {
+    background-color: white;
+    padding: 10px 15px;
+    border-radius: 15px;
+    margin-bottom: 1rem;
+    white-space: pre;
+    border-width: 0.1px;
+}
+.texttt {
+    border-radius: 15px;
+    margin-bottom: 1rem;
+    white-space: pre;
+    border-width: 0.1px;
+}
+
+.qty .count {
+    color: #000;
+    display: inline-block;
+    vertical-align: top;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 30px;
+    padding: 0 2px;
+    min-width: 35px;
+    text-align: center;
+}
+
+.qty .plus {
+    cursor: pointer;
+    display: inline-block;
+    vertical-align: top;
+    color: white;
+    width: 30px;
+    height: 30px;
+    font: 30px/1 Arial,sans-serif;
+    text-align: center;
+    border-radius: 50%;
+}
+
+.qty .minus {
+    cursor: pointer;
+    display: inline-block;
+    vertical-align: top;
+    color: white;
+    width: 30px;
+    height: 30px;
+    font: 30px/1 Arial,sans-serif;
+    text-align: center;
+    border-radius: 50%;
+    background-clip: padding-box;
+}
+
+
+
+.minus:hover {
+    background-color: #717fe0 !important;
+}
+
+.plus:hover {
+    background-color: #717fe0 !important;
+}
+/*Prevent text selection*/
+
+
+span {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+
+input {
+    border: 0;
+    width: 2%;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input:disabled {
+    background-color: white;
+}
+
+
