@@ -14,7 +14,7 @@ namespace ShopTest1.Models.entity
         
         public string Img1 { get; set; } = string.Empty;
         public string Img2 { get; set; } = string.Empty;
-        public string Img3 { get; set; } 
+        public string Img3 { get; set; } = string.Empty;
 
     }
 }
