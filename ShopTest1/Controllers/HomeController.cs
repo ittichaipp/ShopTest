@@ -18,7 +18,7 @@ namespace ShopTest1.Controllers
             _formModelService = formModelService;
         }
 
-        public IActionResult Index(int? id)
+        public IActionResult Index()
         {
             FormViewModel formViewModel = new FormViewModel();
             formViewModel = _formModelService.getProductAll();
