@@ -12,10 +12,11 @@
 #Responsive
 ![Screenshot_6](https://user-images.githubusercontent.com/105933602/189497929-19309741-9aa8-4bbe-9ec1-4bf5cb28b024.png)
 ![Screenshot_7](https://user-images.githubusercontent.com/105933602/189497933-e55b11a5-e825-4ee6-b8f6-1320e7437076.png)
+
 #Database SQL Server
 ![Screenshot_5](https://user-images.githubusercontent.com/105933602/189497904-730c01cc-4477-4e79-a149-5bef66309167.png)
 #Script SQL
-................
+...........................................................................................................................
 USE [demo]
 GO
 
@@ -41,4 +42,3 @@ CREATE TABLE [dbo].[Product](
 ) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
 GO
 
-...............
